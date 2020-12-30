@@ -1,0 +1,320 @@
+Name : 10-20-2020 dcos nor  peg 0pcent 1	20/10/2020	11:07:53 AM	
+
+Type : 14 bit grey/pseudo
+Intensity : 1.000000 lux
+x : 512 * 0.160000 : um
+y : 512 * 0.160000 : um
+Wavelength : 3
+Time1 : 5
+
+
+[Environment]
+User=xiangningbu2018
+Configuration=Andor_RP
+Version=Andor iQ 3.6.3 
+[Environment End]
+[Created]
+Date=20/10/2020
+Time=10:12:52 AM
+[Created End]
+[Protocol Description]
+Protocol - Confocal-560-488-brightfield
+	6D View Compatible - No
+	Image - 10-20-2020 dcos nor  peg 0pcent 
+		Camera Binning - Use Current
+		Wait Allocation - Off
+		Camera Selection - Use Current
+		Events
+		Repeat T - 1 time (0 ms - fastest)
+			Move Channel - Brightfield-Camera-dapi
+				Camera EM Gain - 305
+				Camera Binning X - CURRENT
+				Camera Binning Y - CURRENT
+				Camera Exposure Time (s) - 0.756312
+				Camera Exposure Units - 1
+				DSD Imaging Mode - 3
+				LUT - Blue
+				Map Min - 82
+				Map Max - 15146
+				Trigger - Pre : X,X,X,X,X,X,X,X, :: Post : X,X,X,X,X,X,X,X,
+				Analyzer - Current
+				Fluo Filter 1 - 2
+				Fluo Filter 2 - Current
+				Fluo Filter 3 - Current
+				Fluo Shutter 1 - Current
+				Nikon TE2000 Port - 2
+				Trans Filter 1 - 3
+				Trans Filter 2 - Current
+				Trans Shutter 1 - Current
+				FRAPPA - Current
+				FRAPPA Dwell Time - 40
+				FRAPPA Repeat - 1
+				LVPZT - Current
+				Sutter Shutter Shutter 1 - Current
+				Sutter Shutter Shutter 2 - Current
+				Sutter Wheel Wheel 1 - 480
+				Sutter Wheel Wheel 2 - 387
+				Sutter Wheel Wheel 3 - 6
+				CSU Aperture - Current
+				CSU Camera Port - Current
+				CSU Lens 1 - Current
+				CSU Lens 2 - Current
+				CSU NIR Shutter - Current
+				CSU PB Mirror - Current
+				CSU PB Shutter - Current
+				CSU Port - Current
+				CSU Shutter - Open
+				Dichroic - 1
+				Emmision - Current
+				Excitation - Current
+				NDFilter - Current
+				AOTF Channel 1 Intensity - -1
+				AOTF Channel 2 Intensity - -1
+				AOTF Channel 3 Intensity - -1
+				AOTF Channel 4 Intensity - 100
+				AOTF Channel 5 Intensity - Current
+				AOTF Channel 6 Intensity - Current
+				AOTF Laser 1 Enabled - 1
+				AOTF Laser 1 External Control - Current
+				AOTF Laser 2 Enabled - 1
+				AOTF Laser 2 External Control - Current
+				AOTF Laser 3 Enabled - 1
+				AOTF Laser 3 External Control - Current
+				AOTF Laser 4 Enabled - 1
+				AOTF Laser 4 External Control - Current
+				AOTF Laser 5 Enabled - 0
+				AOTF Laser 5 External Control - Current
+				AOTF Laser 6 Enabled - 0
+				AOTF Laser 6 External Control - Current
+				AOTF MPD - 1
+				AOTF Position - 560
+				AOTF Shutter - Closed
+			Repeat T1 - 5 times (0 ms - fastest)
+				Snap - Frame
+			End - T1
+			Move Channel - 560-CSU
+				Camera EM Gain - 314
+				Camera Binning X - CURRENT
+				Camera Binning Y - CURRENT
+				Camera Exposure Time (s) - 1.008412
+				Camera Exposure Units - 1
+				DSD Imaging Mode - 3
+				LUT - Red
+				Map Min - 114
+				Map Max - 16009
+				Trigger - Pre : X,X,X,X,X,X,X,X, :: Post : X,X,X,X,X,X,X,X,
+				Analyzer - Current
+				Fluo Filter 1 - 1
+				Fluo Filter 2 - Current
+				Fluo Filter 3 - Current
+				Fluo Shutter 1 - Current
+				Nikon TE2000 Port - 2
+				Trans Filter 1 - 2
+				Trans Filter 2 - Current
+				Trans Shutter 1 - Current
+				FRAPPA - Current
+				FRAPPA Dwell Time - 40
+				FRAPPA Repeat - 1
+				LVPZT - DELTA_Z 0
+				Sutter Shutter Shutter 1 - Current
+				Sutter Shutter Shutter 2 - Current
+				Sutter Wheel Wheel 1 - 575
+				Sutter Wheel Wheel 2 - 0
+				Sutter Wheel Wheel 3 - 4
+				CSU Aperture - Current
+				CSU Camera Port - Current
+				CSU Lens 1 - Current
+				CSU Lens 2 - Current
+				CSU NIR Shutter - Current
+				CSU PB Mirror - Current
+				CSU PB Shutter - Current
+				CSU Port - Current
+				CSU Shutter - Open
+				Dichroic - 1
+				Emmision - Current
+				Excitation - Current
+				NDFilter - Current
+				AOTF Channel 1 Intensity - -1
+				AOTF Channel 2 Intensity - -1
+				AOTF Channel 3 Intensity - -1
+				AOTF Channel 4 Intensity - 100
+				AOTF Channel 5 Intensity - Current
+				AOTF Channel 6 Intensity - Current
+				AOTF Laser 1 Enabled - 1
+				AOTF Laser 1 External Control - Current
+				AOTF Laser 2 Enabled - 1
+				AOTF Laser 2 External Control - Current
+				AOTF Laser 3 Enabled - 1
+				AOTF Laser 3 External Control - Current
+				AOTF Laser 4 Enabled - 1
+				AOTF Laser 4 External Control - Current
+				AOTF Laser 5 Enabled - 0
+				AOTF Laser 5 External Control - Current
+				AOTF Laser 6 Enabled - 0
+				AOTF Laser 6 External Control - Current
+				AOTF MPD - 1
+				AOTF Position - 560
+				AOTF Shutter - Open
+			Repeat T1 - 5 times (0 ms - fastest)
+				Snap - Frame
+			End - T1
+			Move Channel - 488-CSU
+				Camera EM Gain - 305
+				Camera Binning X - CURRENT
+				Camera Binning Y - CURRENT
+				Camera Exposure Time (s) - 1.092446
+				Camera Exposure Units - 1
+				DSD Imaging Mode - 3
+				LUT - Green
+				Map Min - 82
+				Map Max - 13838
+				Trigger - Pre : X,X,X,X,X,X,X,X, :: Post : X,X,X,X,X,X,X,X,
+				Analyzer - Current
+				Fluo Filter 1 - 1
+				Fluo Filter 2 - Current
+				Fluo Filter 3 - Current
+				Fluo Shutter 1 - Current
+				Nikon TE2000 Port - 2
+				Trans Filter 1 - 2
+				Trans Filter 2 - Current
+				Trans Shutter 1 - Current
+				FRAPPA - Current
+				FRAPPA Dwell Time - 40000
+				FRAPPA Repeat - 1
+				LVPZT - DELTA_Z 0
+				Sutter Shutter Shutter 1 - Current
+				Sutter Shutter Shutter 2 - Current
+				Sutter Wheel Wheel 1 - 607
+				Sutter Wheel Wheel 2 - 5
+				Sutter Wheel Wheel 3 - 525
+				CSU Aperture - Current
+				CSU Camera Port - Current
+				CSU Lens 1 - Current
+				CSU Lens 2 - Current
+				CSU NIR Shutter - Current
+				CSU PB Mirror - Current
+				CSU PB Shutter - Current
+				CSU Port - Current
+				CSU Shutter - Open
+				Dichroic - 1
+				Emmision - Current
+				Excitation - Current
+				NDFilter - Current
+				AOTF Channel 1 Intensity - -1
+				AOTF Channel 2 Intensity - 100
+				AOTF Channel 3 Intensity - -1
+				AOTF Channel 4 Intensity - -1
+				AOTF Channel 5 Intensity - Current
+				AOTF Channel 6 Intensity - Current
+				AOTF Laser 1 Enabled - 1
+				AOTF Laser 1 External Control - Current
+				AOTF Laser 2 Enabled - 1
+				AOTF Laser 2 External Control - Current
+				AOTF Laser 3 Enabled - 1
+				AOTF Laser 3 External Control - Current
+				AOTF Laser 4 Enabled - 1
+				AOTF Laser 4 External Control - Current
+				AOTF Laser 5 Enabled - 0
+				AOTF Laser 5 External Control - Current
+				AOTF Laser 6 Enabled - 0
+				AOTF Laser 6 External Control - Current
+				AOTF MPD - 1
+				AOTF Position - 488
+				AOTF Shutter - Open
+			Repeat T1 - 5 times (0 ms - fastest)
+				Snap - Frame
+			End - T1
+		End - T
+
+[Protocol Description End]
+[Image Bits]
+14 Bit Data=TRUE
+[Image Bits End]
+[Grab Parameters]
+Camera=Ixon
+Window Left=0
+Window Top=0
+Window Right=511
+Window Bottom=511
+Window Width=512
+Window Height=512
+BinningX=1
+BinningY=1
+Image Width=512
+Image Height=512
+Exposure=756.312 ms
+Rotation=0
+FlipV=0
+FlipH=0
+TimeStamps=Software
+[Grab Parameters End]
+[Tab Device Info]
+Camera=DU897_BV 5629
+ControllerCard=CCI-24
+DriverVersion=2.102.33050.0
+CofVersion=438
+VxDVersion=4.33
+SoftwareTrigger=Supported
+BitDepth=14
+FPGA_Version=7.9
+Ocx_Version=5.4.16.0
+Ocx_Time=15:05:24 Apr 23 2018
+Ocx_File=C:\PROGRA~2\ANDORB~1\COMMON~1\KIDAND~1.OCX
+
+[Tab Device Info End]
+[Tab Exposure]
+Window=512 : 512
+Shutter=Open
+Binning=1x1
+Temperature - Actual =-70
+Display Control - Fastest=Checked
+Display Control - Display Rate=1
+Gains - Pre-Amp-Gain=5.1x
+EM Gain - Enabled=Checked
+Gains - EMGain=305
+Exposure Time - Frame Transfer=Unchecked
+Exposure Time - unit=ms
+Exposure Time - exposure value=756.312
+Exposure Time - Readout in ms=30.357
+Experiment Control - FLZ=Unchecked
+Experiment Control - Trig Mode=Free Run
+Use Frame averaging=Unchecked
+Frames to be averaged=1
+Fastest Grab=Unchecked
+Available memory=4095
+[Tab Exposure End]
+[Tab Temperature/Shutter]
+Temperature Setting=-70
+Actual Temperature=-70
+Cooling=Working
+Fan=Full
+TTL High Open=Checked
+Shutter Open Transfer Time=60
+Shutter Close Transfer Time=80
+[Tab Temperature/Shutter End]
+[Tab Speed/Amplifer]
+Horizontal Readout=10.000
+Vertical Readout time=[1.700]
+ADC Channel=0
+Vertical Clock Voltage=Normal
+Output Amplifier=EM Port
+Baseline Clamp=Checked
+[Tab Speed/Amplifer End]
+[Tab Image Orientation]
+Flip=None
+Rotation in Degrees=None
+[Tab Image Orientation End]
+[Image Info]
+Window Left=0
+Window Top=0
+Window Right=511
+Window Bottom=511
+Window Width=512
+Window Height=512
+Window BinningX=1
+Window BinningY=1
+[Image Info End]
+[First Frame]
+SavedTime=10/20/2020 10:13:21 AM.582
+[First Frame End]
+
